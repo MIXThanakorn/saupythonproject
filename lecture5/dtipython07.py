@@ -5,8 +5,7 @@ import math
 #กรอกข้อมูล
 def radians():
     return float(input('รัศมีของวงกลม: '))
-    
-
+   
 #คำนวนพื้นที่
 def circlearea(r):
     return math.pi*math.pow(r,2)
@@ -22,8 +21,6 @@ def circlevalue(r):
 #แสดงผล
 def show(r):
     print(f"วงกลมมีรัศมี {r} ซม. มีพื้นที่ {circlearea(r):.2f} ตรซม. มีเส้นรอบวง {circleround(r):.2f} ซม. มีปริมาตร {circlevalue(r):.2f} ลบซม.")
-
-
 
 r = radians()
 show(r)
