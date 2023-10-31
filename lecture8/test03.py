@@ -5,7 +5,7 @@ class DtiSau:
     score = 0
     GPA = 0
     #method members คือค่าของการทำงาน (เขียนแบบ function)
-    #self เปรียบเสมือนสิ่งที่ใช้ใยชน class ตัวเอง เพื่อสามารถเรียกใช้ member ใน class ตัวเอง
+    #self เปรียบเสมือนสิ่งที่ใช้ใน class ตัวเอง เพื่อสามารถเรียกใช้ member ใน class ตัวเอง
     def HiStudent(self):
         print(f"สวัสดี {self.stuname}")
     def showgrade(self):
